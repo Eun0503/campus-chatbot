@@ -4,3 +4,4 @@ __pycache__/
 .env
 *credentials*.csv
 .DS_Store
+*.docx
