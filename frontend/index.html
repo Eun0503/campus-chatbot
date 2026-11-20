@@ -23,7 +23,8 @@
 
   <script src="config.js"></script>
   <script>
-    document.getElementById('btn').addEventListener('click', async () => {
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', async () => {
       const out = document.getElementById('out');
       out.textContent = '호출 중...';
       try {
@@ -34,6 +35,8 @@
         out.textContent = '호출 실패: ' + e;
       }
     });
+    // 주소 끝에 #test를 붙이면 열자마자 한 번 호출한다 (확인 화면 캡처용)
+    if (location.hash === '#test') btn.click();
   </script>
 </body>
 </html>
