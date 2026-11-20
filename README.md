@@ -8,6 +8,7 @@
 ![학사 길잡이 AWS 아키텍처](docs/week1-planning/architecture.png)
 
 주황 화살표는 질문·답변 흐름, 파란 화살표는 데이터 준비 흐름입니다.
+자세한 설계는 [1주차 기획서](docs/week1-planning/planning.md)에 있습니다.
 
 ## 폴더 구조
 
@@ -20,7 +21,7 @@ docs/             주차별 과제 자료 (구성도 등)
 
 ## 진행 상황
 
-- [x] 1주차: 서비스 기획 및 AWS 아키텍처 설계
+- [x] 1주차: 서비스 기획 및 AWS 아키텍처 설계 ([기획서](docs/week1-planning/planning.md))
 - [x] 2주차: AWS 환경 및 개발 환경 구성, 테스트 API 배포
 - [ ] 이후: 문서 수집, Knowledge Bases 연결, 답변 생성
 
